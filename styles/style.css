@@ -1,0 +1,24 @@
+body {
+  font-family: "Karla", sans-serif;
+  background-color: hsl(204deg, 43%, 93%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 4rem;
+}
+body main {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 65rem;
+  overflow: hidden;
+  border-radius: 0.8rem;
+}
+body main .join {
+  background-color: #fff;
+  grid-column: span 2;
+  padding: 4.7rem 3.2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

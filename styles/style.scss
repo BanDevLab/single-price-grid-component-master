@@ -1,0 +1,30 @@
+$Cyan: hsl(179, 62%, 43%);
+$Bright-Yellow: hsl(71, 73%, 54%);
+$Light-Gray: hsl(204, 43%, 93%);
+$Grayish-Blue: hsl(218, 22%, 67%);
+$Withe:#fff;
+
+body{
+    font-family: "Karla",sans-serif;
+    background-color: $Light-Gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 4rem;
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        max-width: 65rem;
+        overflow: hidden;
+        border-radius: .8rem;
+        
+        .join{
+            background-color: $Withe;
+            grid-column: span 2;
+            padding: 4.7rem 3.2rem;
+        }
+    }
+
+}
