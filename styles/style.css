@@ -13,12 +13,52 @@ body main {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   max-width: 65rem;
   overflow: hidden;
-  border-radius: 0.8rem;
+  border-radius: 0.6rem;
 }
 body main .join {
   background-color: #fff;
   grid-column: span 2;
   padding: 4.7rem 3.2rem;
+}
+body main .join h1 {
+  color: hsl(179deg, 62%, 43%);
+  margin-bottom: 2rem;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+body main .join span {
+  color: hsl(71deg, 73%, 54%);
+  display: block;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+}
+body main .join p {
+  color: hsl(218deg, 22%, 67%);
+  line-height: 1.4;
+}
+body main .subscription {
+  background-color: hsl(179deg, 62%, 43%);
+  color: #fff;
+  padding: 3rem;
+}
+body main .subscription span {
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: hsl(204deg, 43%, 93%);
+}
+body main .subscription small {
+  color: hsla(203deg, 44%, 93%, 0.464);
+}
+body main .subscription button {
+  background-color: hsl(71deg, 73%, 54%);
+  padding: 0.9rem 1.6rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.4rem;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 /*# sourceMappingURL=style.css.map */
